@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+/**
+ * main - prints the first 98 fibonaci numbers, starting with
+ * 1 ans 2, seperated by a comma followed by a space.
+ * Return: always 0.
+ */
+
+int main(void)
+
+{
+  int count;
+  unsigned long fibl = 0, fib2 = 1, sum;
+  
