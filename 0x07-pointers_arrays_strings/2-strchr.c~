@@ -1,0 +1,9 @@
+#include "main.h"
+
+/**
+ * _strchr - entry point
+ * @s: input
+ * @c: input
+ * Return: always 0 (Success)
+ */
+
