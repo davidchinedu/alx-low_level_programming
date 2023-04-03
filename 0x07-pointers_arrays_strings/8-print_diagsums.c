@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_diagnosis - entry point
+ * print_diagsums - entry point
  * @a: input
  * @size: input
  * Return: always 0 (Success)
