@@ -1,0 +1,10 @@
+#include "main.h"
+
+/**
+ * print_chessboard - entry point
+ * @a: array
+ * Return: always 0 (Success)
+ */
+
+void print_chessboard(char (*a)[8])
+  
