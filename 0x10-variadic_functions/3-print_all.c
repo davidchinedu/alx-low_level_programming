@@ -26,8 +26,7 @@ if (format[i] == t_arg[j] && c)
 {
 printf(", ");
 break;
-}
-j++;
+} j++;
 }
 switch (format[i])
 {
@@ -49,8 +48,7 @@ break;
 }
 printf("%s", str);
 break;
-}
-i++;
+} i++;
 }
 printf("\n"), va_end(valist);
 }
