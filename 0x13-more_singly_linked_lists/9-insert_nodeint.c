@@ -11,7 +11,7 @@
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-unsigned int j;
+unsigned int i;
 listint_t *fresh;
 listint_t *pres = *head;
 
@@ -29,9 +29,9 @@ fresh->next = *head;
 return (fresh);
 }
 
-for (j = 0; temp && j < idx; i++)
+for (i = 0; pres && i < idx; i++)
 {
-if (j == idx - 1)
+if (i == idx - 1)
 {
 fresh->next = pres->next;
 pres->next = fresh;
