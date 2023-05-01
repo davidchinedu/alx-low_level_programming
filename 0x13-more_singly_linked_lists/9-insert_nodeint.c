@@ -29,7 +29,7 @@ fresh->next = *head;
 return (fresh);
 }
 
-for (i = 0; temp && i < idx; i++)
+for (j = 0; temp && j < idx; i++)
 {
 if (j == idx - 1)
 {
